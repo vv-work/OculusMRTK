@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\MockRuntime\MockRuntimeFeatureSet.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\MockRuntime\MockRuntime.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\MockRuntimeFeatureSet.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\MockRuntime.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\MockRuntime\windows\x64\openxr_loader.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\MockRuntime\Unity.XR.OpenXR.Features.MockRuntime.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\Unity.XR.OpenXR.Features.MockRuntime.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\windows\x64\mock_api.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\windows\x64\mock_runtime.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\MockRuntime\windows\x64\openxr_loader.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -676,6 +678,10 @@
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
       <Project>{B7F9F775-DFDA-0926-0590-5459EE8EA27B}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{5F7FD087-4F60-9890-3443-895C495E2C05}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

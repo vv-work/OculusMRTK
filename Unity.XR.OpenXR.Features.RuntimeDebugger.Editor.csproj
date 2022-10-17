@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\RuntimeDebuggerWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\RuntimeDebuggerOpenXRFeatureEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\RuntimeDebugger\Editor\RuntimeDebuggerOpenXRFeatureEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\RuntimeDebugger\Editor\RuntimeDebuggerWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\RuntimeDebugger\Editor\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -688,13 +688,17 @@
       <Project>{027591D9-BB83-CF0F-8051-0CE21572FF0B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{86CE0AB2-403A-F094-62B0-7D11F42040A7}</Project>
-      <Name>UnityEngine.TestRunner</Name>
+    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
+      <Project>{B7F9F775-DFDA-0926-0590-5459EE8EA27B}</Project>
+      <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{AF4FA349-1390-6E91-2775-DC1B532B8416}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{86CE0AB2-403A-F094-62B0-7D11F42040A7}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

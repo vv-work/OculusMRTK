@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 86510772
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84cdd77d4ca15d9c889bc23bf0519830
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2c040cef7601b3c05f2f6ecddfcec8c0
+HashAppended: 0
+ClassTypes:
+- Class: 89
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/Interaction/Samples/ThirdParty/Textures/EnvironmentMaps/photo_studio_broadway_hall_1k.exr
+Dependencies: []

@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2461292760
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d8808f85f1a8f1e4c0c20813e953d1a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ed098661139a8dfcb7d987ca0c8a1ba
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomRugMat.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/StencilSkydome.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFurnitureMat.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskMat.mat
+- Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.mat
+- Assets/Oculus/Interaction/Samples/Materials/SkyboxGradient.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/WindowStencilWriter.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Materials/MRDeskShadow.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomWoodMat.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFloorMat.mat
+- Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat
+- Assets/Oculus/Interaction/Runtime/Materials/RoundedBoxUnlit.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
+- Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFabricMat.mat
+- Assets/Oculus/Interaction/Runtime/Materials/TransparentStandard.mat
+- Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.mat
+Dependencies:
+- B:/Git/OculusMRTK/OVRAssetBundles/OVRMasterBundle/asset_png0
+- B:/Git/OculusMRTK/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- B:/Git/OculusMRTK/OVRAssetBundles/OVRMasterBundle/asset_tga0

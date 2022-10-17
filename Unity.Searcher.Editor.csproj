@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\Searcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherDatabaseBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherDatabase.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherHighlighter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherDatabaseBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Searcher\SearcherDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.searcher@4.3.2\Editor\Unity.Searcher.Editor.asmdef" />
@@ -690,13 +690,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{86CE0AB2-403A-F094-62B0-7D11F42040A7}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{AF4FA349-1390-6E91-2775-DC1B532B8416}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{86CE0AB2-403A-F094-62B0-7D11F42040A7}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

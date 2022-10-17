@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: a91032cb38b2d7c4b89030b2417968ac
+    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity
+    guid: ade7d3882b4495145a8fe79f5624beab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0bbd76e09f2541c4483ff9984222c857, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 79d95d6aa90932e499721920c580c8ae, type: 2}
