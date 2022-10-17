@@ -129,15 +129,18 @@ PlayerSettings:
     Others: 1
   bundleVersion: 1.0
   preloadedAssets:
-  - {fileID: 11400000, guid: 159dab596b20fdd458179446f6bbdd84, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 0bbd76e09f2541c4483ff9984222c857, type: 2}
   - {fileID: 7887950341421556301, guid: adcef57e0a1402746818e35fcbb0bfec, type: 2}
+  - {fileID: 0}
+  - {fileID: -759338694785850973, guid: 79d95d6aa90932e499721920c580c8ae, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 1
   xboxOneEnable7thCore: 1
   vrSettings:
-    enable360StereoCapture: 0
+    enable360StereoCapture: 1
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
   useHDRDisplay: 0
@@ -155,7 +158,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 26
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

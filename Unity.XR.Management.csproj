@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRConfigurationData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRLoaderHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRGeneralSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRManagerSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRLoaderHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\IXRLoaderPreInit.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.0.7\Runtime\XRManagementAnalytics.cs" />
